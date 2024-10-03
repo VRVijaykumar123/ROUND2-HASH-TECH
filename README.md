@@ -176,7 +176,8 @@ CODE:
 # OUTPUT:
 ![ROUND2-HASH OUTPUT2](https://github.com/user-attachments/assets/3598ce40-a82e-4388-8527-20123bd6ae55)
 
-RESULT;
+RESULT:
+
 Thus, the program was executed successfully and implemented .
 
 
