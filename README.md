@@ -176,6 +176,29 @@ CODE:
 # OUTPUT:
 ![ROUND2-HASH OUTPUT2](https://github.com/user-attachments/assets/3598ce40-a82e-4388-8527-20123bd6ae55)
 
+# JAVASCRIPT CODE;
+```
+<canvas id="depChart"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var ctx = document.getElementById('depChart').getContext('2d');
+    var chart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['IT', 'HR', 'Sales'],
+            datasets: [{
+                label: 'Employees by Department',
+                data: [10, 5, 8],
+                backgroundColor: ['red', 'blue', 'green']
+            }]
+        }
+    });
+</script>
+```
+OUTPUT:
+![ROUND2-HASH OUTPUT3](https://github.com/user-attachments/assets/b846ee24-eb3a-4bd4-9270-81f3b66f0f03)
+
+
 RESULT:
 
 Thus, the program was executed successfully and implemented .
